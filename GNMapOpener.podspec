@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "GNMapOpener"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Wrapper for opening map location in map services."
 
   s.description  = "Wrapper for opening map location in map services using Google or Apple Maps"
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.author             = { "Jakub Knejzlik" => "jakub.knejzlik@gmail.com" }
 
   s.platform     = :ios
-  s.ios.deployment_target = "6.0"
+  s.ios.deployment_target = "7.0"
 
 
   s.source       = { :git => "https://github.com/jakubknejzlik/GNMapOpener.git", :tag => s.version.to_s }

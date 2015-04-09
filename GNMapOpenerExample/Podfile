@@ -1,0 +1,15 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'GNMapOpenerExample' do
+pod 'CWLSynthesizeSingleton', '~> 1.0'
+pod 'UIActionSheet+Blocks', '0.8'
+pod 'OpenInGoogleMaps', '~> 0.1'
+end
+
+target 'GNMapOpenerExampleTests' do
+pod 'CWLSynthesizeSingleton', '~> 1.0'
+pod 'UIActionSheet+Blocks', '0.8'
+pod 'OpenInGoogleMaps', '~> 0.1'
+end
+

@@ -8,20 +8,21 @@
 
 #import "ViewController.h"
 
+#import "GNMapOpener.h"
+
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)showLocation:(id)sender {
+    CLLocation *location = [[CLLocation alloc] initWithLatitude:49.195589 longitude:16.608912];
+    GNMapOpenerItem *item = [[GNMapOpenerItem alloc] initWithLocation:location];
+    item.name = @"test destination";
+    item.directionsType = GNMapOpenerDirectionsTypeWalk;
+    [[GNMapOpener sharedInstance] openItem:item];
 }
 
 @end

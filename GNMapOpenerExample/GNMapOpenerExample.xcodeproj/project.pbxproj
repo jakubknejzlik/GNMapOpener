@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53E9FD5CFAB915F4A4D9BF0B /* libPods-GNMapOpenerExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F063EE7706B1798905AF99A /* libPods-GNMapOpenerExample.a */; };
 		EEB1FA161AD68859004B1BFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1FA151AD68859004B1BFF /* main.m */; };
 		EEB1FA191AD68859004B1BFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1FA181AD68859004B1BFF /* AppDelegate.m */; };
 		EEB1FA1C1AD68859004B1BFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1FA1B1AD68859004B1BFF /* ViewController.m */; };
@@ -14,6 +15,18 @@
 		EEB1FA211AD68859004B1BFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB1FA201AD68859004B1BFF /* Images.xcassets */; };
 		EEB1FA241AD68859004B1BFF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB1FA221AD68859004B1BFF /* LaunchScreen.xib */; };
 		EEB1FA301AD68859004B1BFF /* GNMapOpenerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1FA2F1AD68859004B1BFF /* GNMapOpenerExampleTests.m */; };
+		EEB1FA401AD688E1004B1BFF /* GNMapOpener.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1FA3F1AD688E1004B1BFF /* GNMapOpener.m */; };
+		EEB1FA411AD688E1004B1BFF /* GNMapOpener.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1FA3F1AD688E1004B1BFF /* GNMapOpener.m */; };
+		EEB1FA451AD68B0B004B1BFF /* GNMapOpenerService.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1FA441AD68B0B004B1BFF /* GNMapOpenerService.m */; };
+		EEB1FA461AD68B0B004B1BFF /* GNMapOpenerService.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1FA441AD68B0B004B1BFF /* GNMapOpenerService.m */; };
+		EEB1FA491AD68B72004B1BFF /* GNAppleMapOpenerService.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1FA481AD68B72004B1BFF /* GNAppleMapOpenerService.m */; };
+		EEB1FA4A1AD68B72004B1BFF /* GNAppleMapOpenerService.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1FA481AD68B72004B1BFF /* GNAppleMapOpenerService.m */; };
+		EEB1FA4D1AD68C52004B1BFF /* GNGoogleMapOpenerService.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1FA4C1AD68C52004B1BFF /* GNGoogleMapOpenerService.m */; };
+		EEB1FA4E1AD68C52004B1BFF /* GNGoogleMapOpenerService.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1FA4C1AD68C52004B1BFF /* GNGoogleMapOpenerService.m */; };
+		EEB1FA511AD69200004B1BFF /* GNMapOpenerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1FA501AD69200004B1BFF /* GNMapOpenerItem.m */; };
+		EEB1FA521AD69200004B1BFF /* GNMapOpenerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB1FA501AD69200004B1BFF /* GNMapOpenerItem.m */; };
+		EEBF54121AD6B970000931ED /* GNMapOpener.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EEBF54111AD6B970000931ED /* GNMapOpener.podspec */; };
+		F924AA422A687B9C4DAD9D69 /* libPods-GNMapOpenerExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8E26DDA14F758B48546D51 /* libPods-GNMapOpenerExampleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A8EBEEE3DE80553D5067D7E /* Pods-GNMapOpenerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNMapOpenerExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GNMapOpenerExample/Pods-GNMapOpenerExample.debug.xcconfig"; sourceTree = "<group>"; };
+		6401A0B6881056FF3995CD03 /* Pods-GNMapOpenerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNMapOpenerExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-GNMapOpenerExample/Pods-GNMapOpenerExample.release.xcconfig"; sourceTree = "<group>"; };
+		778D2BB244F10C2A41A5ED17 /* Pods-GNMapOpenerExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNMapOpenerExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GNMapOpenerExampleTests/Pods-GNMapOpenerExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F063EE7706B1798905AF99A /* libPods-GNMapOpenerExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GNMapOpenerExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8E26DDA14F758B48546D51 /* libPods-GNMapOpenerExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GNMapOpenerExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB1FA101AD68859004B1BFF /* GNMapOpenerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GNMapOpenerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB1FA141AD68859004B1BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEB1FA151AD68859004B1BFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +58,18 @@
 		EEB1FA291AD68859004B1BFF /* GNMapOpenerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GNMapOpenerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB1FA2E1AD68859004B1BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEB1FA2F1AD68859004B1BFF /* GNMapOpenerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNMapOpenerExampleTests.m; sourceTree = "<group>"; };
+		EEB1FA3E1AD688E1004B1BFF /* GNMapOpener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNMapOpener.h; sourceTree = "<group>"; };
+		EEB1FA3F1AD688E1004B1BFF /* GNMapOpener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNMapOpener.m; sourceTree = "<group>"; };
+		EEB1FA431AD68B0B004B1BFF /* GNMapOpenerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNMapOpenerService.h; sourceTree = "<group>"; };
+		EEB1FA441AD68B0B004B1BFF /* GNMapOpenerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNMapOpenerService.m; sourceTree = "<group>"; };
+		EEB1FA471AD68B72004B1BFF /* GNAppleMapOpenerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNAppleMapOpenerService.h; sourceTree = "<group>"; };
+		EEB1FA481AD68B72004B1BFF /* GNAppleMapOpenerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNAppleMapOpenerService.m; sourceTree = "<group>"; };
+		EEB1FA4B1AD68C52004B1BFF /* GNGoogleMapOpenerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNGoogleMapOpenerService.h; sourceTree = "<group>"; };
+		EEB1FA4C1AD68C52004B1BFF /* GNGoogleMapOpenerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNGoogleMapOpenerService.m; sourceTree = "<group>"; };
+		EEB1FA4F1AD69200004B1BFF /* GNMapOpenerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNMapOpenerItem.h; sourceTree = "<group>"; };
+		EEB1FA501AD69200004B1BFF /* GNMapOpenerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNMapOpenerItem.m; sourceTree = "<group>"; };
+		EEBF54111AD6B970000931ED /* GNMapOpener.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = GNMapOpener.podspec; path = ../GNMapOpener.podspec; sourceTree = "<group>"; };
+		F314D62F1663ADE7B9BD5D48 /* Pods-GNMapOpenerExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNMapOpenerExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GNMapOpenerExampleTests/Pods-GNMapOpenerExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53E9FD5CFAB915F4A4D9BF0B /* libPods-GNMapOpenerExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +85,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F924AA422A687B9C4DAD9D69 /* libPods-GNMapOpenerExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B228685ECC4DAC2782A69E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F063EE7706B1798905AF99A /* libPods-GNMapOpenerExample.a */,
+				CE8E26DDA14F758B48546D51 /* libPods-GNMapOpenerExampleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40581C13293D99FEE6941C92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A8EBEEE3DE80553D5067D7E /* Pods-GNMapOpenerExample.debug.xcconfig */,
+				6401A0B6881056FF3995CD03 /* Pods-GNMapOpenerExample.release.xcconfig */,
+				778D2BB244F10C2A41A5ED17 /* Pods-GNMapOpenerExampleTests.debug.xcconfig */,
+				F314D62F1663ADE7B9BD5D48 /* Pods-GNMapOpenerExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EEB1FA071AD68859004B1BFF = {
 			isa = PBXGroup;
 			children = (
+				EEBF54111AD6B970000931ED /* GNMapOpener.podspec */,
+				EEB1FA391AD6888D004B1BFF /* GNMapOpener */,
 				EEB1FA121AD68859004B1BFF /* GNMapOpenerExample */,
 				EEB1FA2C1AD68859004B1BFF /* GNMapOpenerExampleTests */,
 				EEB1FA111AD68859004B1BFF /* Products */,
+				40581C13293D99FEE6941C92 /* Pods */,
+				3B228685ECC4DAC2782A69E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +175,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EEB1FA391AD6888D004B1BFF /* GNMapOpener */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1FA421AD68AF9004B1BFF /* Services */,
+				EEB1FA3E1AD688E1004B1BFF /* GNMapOpener.h */,
+				EEB1FA3F1AD688E1004B1BFF /* GNMapOpener.m */,
+				EEB1FA4F1AD69200004B1BFF /* GNMapOpenerItem.h */,
+				EEB1FA501AD69200004B1BFF /* GNMapOpenerItem.m */,
+			);
+			name = GNMapOpener;
+			path = ../GNMapOpener;
+			sourceTree = "<group>";
+		};
+		EEB1FA421AD68AF9004B1BFF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EEB1FA431AD68B0B004B1BFF /* GNMapOpenerService.h */,
+				EEB1FA441AD68B0B004B1BFF /* GNMapOpenerService.m */,
+				EEB1FA471AD68B72004B1BFF /* GNAppleMapOpenerService.h */,
+				EEB1FA481AD68B72004B1BFF /* GNAppleMapOpenerService.m */,
+				EEB1FA4B1AD68C52004B1BFF /* GNGoogleMapOpenerService.h */,
+				EEB1FA4C1AD68C52004B1BFF /* GNGoogleMapOpenerService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEB1FA331AD68859004B1BFF /* Build configuration list for PBXNativeTarget "GNMapOpenerExample" */;
 			buildPhases = (
+				875AA6E83DA7EC21145328E0 /* Check Pods Manifest.lock */,
 				EEB1FA0C1AD68859004B1BFF /* Sources */,
 				EEB1FA0D1AD68859004B1BFF /* Frameworks */,
 				EEB1FA0E1AD68859004B1BFF /* Resources */,
+				279D4220C8F1E26BEDBB5816 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEB1FA361AD68859004B1BFF /* Build configuration list for PBXNativeTarget "GNMapOpenerExampleTests" */;
 			buildPhases = (
+				D2A566C826F4E9FCAF6D342E /* Check Pods Manifest.lock */,
 				EEB1FA251AD68859004B1BFF /* Sources */,
 				EEB1FA261AD68859004B1BFF /* Frameworks */,
 				EEB1FA271AD68859004B1BFF /* Resources */,
+				5CC990ECD48DCCA4A659E30E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +288,7 @@
 				EEB1FA1F1AD68859004B1BFF /* Main.storyboard in Resources */,
 				EEB1FA241AD68859004B1BFF /* LaunchScreen.xib in Resources */,
 				EEB1FA211AD68859004B1BFF /* Images.xcassets in Resources */,
+				EEBF54121AD6B970000931ED /* GNMapOpener.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +301,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		279D4220C8F1E26BEDBB5816 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GNMapOpenerExample/Pods-GNMapOpenerExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CC990ECD48DCCA4A659E30E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GNMapOpenerExampleTests/Pods-GNMapOpenerExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		875AA6E83DA7EC21145328E0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2A566C826F4E9FCAF6D342E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EEB1FA0C1AD68859004B1BFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB1FA401AD688E1004B1BFF /* GNMapOpener.m in Sources */,
 				EEB1FA1C1AD68859004B1BFF /* ViewController.m in Sources */,
+				EEB1FA451AD68B0B004B1BFF /* GNMapOpenerService.m in Sources */,
+				EEB1FA491AD68B72004B1BFF /* GNAppleMapOpenerService.m in Sources */,
 				EEB1FA191AD68859004B1BFF /* AppDelegate.m in Sources */,
 				EEB1FA161AD68859004B1BFF /* main.m in Sources */,
+				EEB1FA4D1AD68C52004B1BFF /* GNGoogleMapOpenerService.m in Sources */,
+				EEB1FA511AD69200004B1BFF /* GNMapOpenerItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +384,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB1FA411AD688E1004B1BFF /* GNMapOpener.m in Sources */,
 				EEB1FA301AD68859004B1BFF /* GNMapOpenerExampleTests.m in Sources */,
+				EEB1FA461AD68B0B004B1BFF /* GNMapOpenerService.m in Sources */,
+				EEB1FA521AD69200004B1BFF /* GNMapOpenerItem.m in Sources */,
+				EEB1FA4A1AD68B72004B1BFF /* GNAppleMapOpenerService.m in Sources */,
+				EEB1FA4E1AD68C52004B1BFF /* GNGoogleMapOpenerService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +503,7 @@
 		};
 		EEB1FA341AD68859004B1BFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A8EBEEE3DE80553D5067D7E /* Pods-GNMapOpenerExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GNMapOpenerExample/Info.plist;
@@ -353,6 +514,7 @@
 		};
 		EEB1FA351AD68859004B1BFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6401A0B6881056FF3995CD03 /* Pods-GNMapOpenerExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GNMapOpenerExample/Info.plist;
@@ -363,6 +525,7 @@
 		};
 		EEB1FA371AD68859004B1BFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 778D2BB244F10C2A41A5ED17 /* Pods-GNMapOpenerExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -382,6 +545,7 @@
 		};
 		EEB1FA381AD68859004B1BFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F314D62F1663ADE7B9BD5D48 /* Pods-GNMapOpenerExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -414,6 +578,7 @@
 				EEB1FA351AD68859004B1BFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEB1FA361AD68859004B1BFF /* Build configuration list for PBXNativeTarget "GNMapOpenerExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +587,7 @@
 				EEB1FA381AD68859004B1BFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
